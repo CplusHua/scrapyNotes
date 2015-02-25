@@ -1,0 +1,9 @@
+1.  安装遇到的问题记录
+
+安装过程遇到找不到openssl/aes.h 头文件
+网上的各种解决方法尝试不成功后，偶然间把 include目录的内容cpoy到python的安装目录中，lib也如法炮制，之后安装成
+
+2.  遇到没有win32api 需要下载安装pywin32-219.win-amd64-py2.7.exe(更加系统及其软件环境改变版本)
+
+3.  按照官方demo没有跑成功，跑torrent时遇到items 中的class未定义错误，几经尝试 在spider中加入 from torrent.items import TorrentItem 可以正常运行，输出文件的json文件中成功爬到数据回来
+
