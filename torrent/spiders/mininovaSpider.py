@@ -1,3 +1,4 @@
+# -*-coding:utf-8-*-
 #scrapy crawl mininova -o scraped_data.json
 #用上面的命令即可运行该爬虫
 
